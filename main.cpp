@@ -8,6 +8,9 @@ static const int WIDTH = 12;
 
 int field[HEIGHT][WIDTH];
 
+// テトリスで落ちてくるやつは「ミノ」というらしい
+// https://w.atwiki.jp/tetrismaps/pages/75.html
+
 void frame() {
     std::fill(&field[0][0], &field[0][0] + HEIGHT * WIDTH, 0);
 
